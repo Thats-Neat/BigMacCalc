@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Big Mac Calculator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="bigmac.jpg"/>
+</head>
+
+<body>
+
+<h5 class="version">1.0</h5>
+
+<h1 class="title">The Big Mac Calculator</h1>
+
+<center><input type="text" id="textField" name="textField" class="textField" onkeyup="formatValue()" placeholder="$"></center>
+
+
+
+<h1 class="macNumStr">Big Mac Amount</h1>
+
+<h1 class="macWeightStr">Big Mac Weight</h1>
+
+<h1 class="macCalStr">Big Mac Calories</h1>
+
+<h1 class="macNum" id="macNum">0</h1>
+
+<h1 class="macWeight" id="macWeight">0 lb</h1>
+
+<h1 class="macCal" id="macCal">0</h1>
+
+
+
+	
+
+<h1 class="quotes" id ="quotes">'Enter a value to get started'</h1>
+
+<center><button onclick="buttonPress()" class="button">Calculate</button></center> 
+
+<center><button onclick="clearNum()" class="clearButton">Clear</button></center>
+
+
+<script src="main.js"></script>
+
+</body>
+
+
+</html>
