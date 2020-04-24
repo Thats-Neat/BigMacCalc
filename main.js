@@ -21,7 +21,7 @@ if (window.innerWidth < 900){
 	styleLink.setAttribute("href", "mobile.css")
 }
 	
-window.onresize = function(){ location.reload(); }
+//window.onresize = function(){ location.reload(); }
 
 
 
