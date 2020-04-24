@@ -17,13 +17,11 @@ var round;
 
 // Big Mac $3.99
 var styleLink = document.getElementById("pagestyle");
-
-// Iphone X
 if (window.innerWidth < 400 && window.innerHeight < 900){
 	styleLink.setAttribute("href", "mobile.css")
 }
 	
-//window.onresize = function(){ location.reload(); }
+window.onresize = function(){ location.reload(); }
 
 
 
