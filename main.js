@@ -21,8 +21,6 @@ if (window.innerWidth < 400 && window.innerHeight < 900){
 	styleLink.setAttribute("href", "mobile.css")
 }
 	
-window.onresize = function(){ location.reload(); }
-
 
 
 function buttonPress(){
