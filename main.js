@@ -19,7 +19,7 @@ var round;
 var styleLink = document.getElementById("pagestyle");
 
 // Iphone X
-if (window.innerWidth < 400) and (window.innerHeight < 900){
+if (window.innerWidth < 400 && window.innerHeight < 900){
 	styleLink.setAttribute("href", "mobile.css")
 }
 	
