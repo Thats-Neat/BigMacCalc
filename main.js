@@ -16,6 +16,13 @@ var round;
 
 
 // Big Mac $3.99
+var styleLink = document.getElementById("pagestyle");
+if (window.innerWidth < 900){
+	styleLink.setAttribute("href", "mobile.css")
+}
+	
+window.onresize = function(){ location.reload(); }
+
 
 
 function buttonPress(){
@@ -91,4 +98,7 @@ function formatValue(){
 	//var number = Number(document.getElementById("textField").value);
 	//document.getElementById("textField").value = number.toLocaleString();
 }
+
+
+
 

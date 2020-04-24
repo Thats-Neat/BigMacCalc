@@ -1,0 +1,120 @@
+body{
+	background: gray;
+}
+
+.title{
+	font-size: 80px;
+	float: right;
+    margin-right: -680px;
+	
+}
+
+.button{
+	padding-right: 250px;
+	padding-left: 250px;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	margin-top: 800px;
+	font-size: 50px;
+	position: static;
+	border-radius: 20px;
+	margin-left: 275px;
+}
+
+.clearButton{
+	margin-top: 45px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 40px;
+	margin-left: 490px;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+
+.textField{
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 140px;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 152px;
+	border-radius: 35px;
+	margin-left: 225px;
+	margin-bottom: 100px;
+}
+
+.macNumStr{
+	font-size: 50px;
+	float: right;
+    margin-right: -40px;
+	text-align: center;
+
+}
+
+.macNum{
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 50px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.macWeightStr{
+	font-size: 50px;
+	float: right;
+    margin-right: -745px;
+	text-align: center;
+}
+
+.macWeight{
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 50px;
+	margin-top: -70px;
+	margin-left: 475px;
+}
+
+.macCalStr{
+	font-size: 50px;
+	float: right;
+    margin-right: -1145px;
+	text-align: center;
+}
+
+.macCal{
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 50px;
+	margin-top: -90px;
+	margin-left: 850px;
+}
+
+.version{
+	margin-left: 5px;
+	margin-top: -5px;
+	font-size: 50px;
+}
+
+.quotes{
+	text-align: center;
+	width: 300%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 50px;
+	margin-top: 300px;
+	margin-left: 75px;
+	color: white;
+	margin-bottom: -50px;
+}
